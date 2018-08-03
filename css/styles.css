@@ -1,0 +1,13 @@
+body > div > div,  body > div > div *{
+    transition: all ease-in-out 0.4s;
+}
+
+@media screen and (max-width: 768px) {
+    body > div > div,  body > div > div *{
+        height: 0;
+        opacity: 0;
+    }
+    body > div > nav > .navbar-collapse {
+        display: block;
+    }
+}
